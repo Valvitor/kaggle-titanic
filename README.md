@@ -38,6 +38,9 @@ Abaixo estão os registros oficiais de pontuação extraídos diretamente do Kag
   <img src="img/rank.png" width="45%" alt="Leaderboard Rank">
 </p>
 
+> [!NOTE]
+> **O Paradoxo do Leaderboard:** O placar do desafio *Titanic* no Kaggle ostenta milhares de pontuações perfeitas (1.0). Na prática, por tratar-se de um evento histórico (com a lista de sobreviventes disponível publicamente), dados vazados e gabaritos mascaram o real teto viável da Inteligência Artificial preditiva (cerca de `~0.83`). Um salto na região do `0.77+` quebra o vasto empate acadêmico do "Exército do Random Forest Básico" e atesta a competência técnica autêntica do modelo sem apelar para *Data Leaks*.
+
 ---
 
 ## 🛠️ Stack de Ferramentas Utilizadas
