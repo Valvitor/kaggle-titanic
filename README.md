@@ -27,8 +27,16 @@ Modelo otimizado para atacar o real "teto de vidro" imposto pela natureza errát
 *   **Feature Engineering Espacial:** Junção comportamental criando um peso de `Ticket Frequency`, provando se o passageiro morreu abraçado ao seu grupo/família.
 *   **Imputação Tridimensional Otimizada:** Substituição da métrica de Medianas por um algoritmo `KNNImputer` que rastreia os 5 passageiros "mais geneticamente puros" por proximidade n-dimensional para prever a exata idade não documentada no manifesto de passageiros.
 *   **O Algoritmo Mestre:** `Extreme Gradient Boosting (XGBoost)` tunado para prevenir sobreajuste (*early_stopping*).
-*   **Score Final:** *(Insira aqui o seu Score Público do Leaderboard que saiu nessa segunda versão! Ex: 78%+)*.
+*   **Score Final (Kaggle Public Leaderboard):** `0.77272` 🏆 (Salto de +500 posições no rank global, atingindo a posição **8246** de 12553 equipes!)
 *   **Validação (CrossVal k=5):** `82.72%`
+
+### 📈 Evolução no Leaderboard
+Abaixo estão os registros oficiais de pontuação extraídos diretamente do Kaggle, provando o salto de acurácia entre os modelos:
+
+<p align="center">
+  <img src="img/score_v2.png" width="45%" alt="Submission V2 Score">
+  <img src="img/rank.png" width="45%" alt="Leaderboard Rank">
+</p>
 
 ---
 
