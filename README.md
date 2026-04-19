@@ -30,12 +30,19 @@ Modelo otimizado para atacar o real "teto de vidro" imposto pela natureza errát
 *   **Score Final (Kaggle Public Leaderboard):** `0.77272` 🏆 (Salto de +500 posições no rank global, atingindo a posição **8246** de 12553 equipes!)
 *   **Validação (CrossVal k=5):** `82.72%`
 
-### 📈 Evolução no Leaderboard
-Abaixo estão os registros oficiais de pontuação extraídos diretamente do Kaggle, provando o salto de acurácia entre os modelos:
+### 📈 Explicabilidade de Dados e Visualização
 
+Abaixo estão os gráficos extraídos diretamente dos nossos algoritmos para validar nossas teses.
+
+**Análise Visual do Baseline (Mulheres da Primeira Classe x Homens da Terceira Classe):**
 <p align="center">
-  <img src="img/score_v2.png" width="45%" alt="Submission V2 Score">
-  <img src="img/rank.png" width="45%" alt="Leaderboard Rank">
+  <img src="img/exploration.png" width="80%" alt="Sobrevivência por Sexo e Classe">
+</p>
+
+**Explicabilidade da Caixa-Preta (Model Feature Importance):**
+Descobrindo quais variáveis ditaram as regras de vida ou morte no núcleo matemático do nosso XGBoost.
+<p align="center">
+  <img src="img/xgboost.png" width="80%" alt="XGBoost Feature Importance">
 </p>
 
 > [!NOTE]
